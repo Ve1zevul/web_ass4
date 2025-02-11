@@ -1,0 +1,10 @@
+{
+  "welcome": "Bienvenido",
+  "login": "Iniciar sesión",
+  "register": "Registrarse",
+  "username": "Nombre de usuario",
+  "password": "Contraseña",
+  "submit": "Enviar",
+  "adminPanel": "Panel de administración",
+  "logout": "Cerrar sesión"
+}

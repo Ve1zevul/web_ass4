@@ -1,0 +1,10 @@
+{
+  "weather": "Weather",
+  "login": "Login",
+  "register": "Register",
+  "username": "Username",
+  "password": "Password",
+  "submit": "Submit",
+  "adminPanel": "Admin Panel",
+  "logout": "Logout"
+}

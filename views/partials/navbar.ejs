@@ -1,0 +1,22 @@
+<nav class="navbar">
+    <div class="logo">My App</div>
+    <div class="nav-links">
+        <a href="/login"><%= t('login') %></a>
+        <a href="/register"><%= t('register') %></a>
+        <a href="/admin"><%= t('adminPanel') %></a>
+        <a href="/weather"><%= t('weather') %></a>
+        <a href="/api1">API 1</a>
+        <a href="/api2">API 2</a>
+        <form action="/set-language" method="POST" class="language-selector">
+            <select name="language" onchange="this.form.submit()">
+                <option value="en" <%= language === 'en' ? 'selected' : '' %>>English</option>
+                <option value="fr" <%= language === 'fr' ? 'selected' : '' %>>Français</option>
+            </select>
+        </form>
+        <% if (user) { %>
+            <a href="/logout">Logout</a>
+        <% } else { %>
+            <a href="/login">Login</a>
+        <% } %>
+    </div>
+</nav>
